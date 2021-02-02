@@ -1,0 +1,11 @@
+source $HOME/.config/nvim/plugs.vim
+source $HOME/.config/nvim/theme.vim
+source $HOME/.config/nvim/settings.vim
+source $HOME/.config/nvim/commands.vim
+source $HOME/.config/nvim/mappings.vim
+source $HOME/.config/nvim/filetypes.vim
+source $HOME/.config/nvim/coc.vim
+source $HOME/.config/nvim/fzf.vim
+source $HOME/.config/nvim/clap.vim
+source $HOME/.config/nvim/php.vim
+source $HOME/.config/nvim/intelephense.vim
