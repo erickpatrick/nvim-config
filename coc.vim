@@ -1,17 +1,23 @@
 let g:coc_global_extensions = [
- \ 'coc-json',
- \ 'coc-git',
  \ 'coc-explorer',
- \ 'coc-yaml',
+ \ 'coc-fzf-preview',
+ \ 'coc-diagnostic',
+ \ 'coc-lists',
+ \ 'coc-sh',
+ \ 'coc-git',
+ \ 'coc-json',
+ \ 'coc-format-json',
+ \ 'coc-html',
+ \ 'coc-css',
+ \ 'coc-cssmodules',
+ \ 'coc-emmet',
+ \ 'coc-tsserver',
+ \ 'coc-prettier',
+ \ 'coc-graphql',
  \ 'coc-tailwindcss',
  \ 'coc-phpls',
  \ 'coc-phpactor',
- \ 'coc-fzf-preview',
- \ 'coc-format-json',
- \ 'coc-emmet',
- \ 'coc-diagnostic',
- \ 'coc-cssmodules',
- \ 'coc-css'
+ \ 'coc-yaml'
  \]
 
 
@@ -121,7 +127,6 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-
 
 """"""""""""""
 " coc-explorer
