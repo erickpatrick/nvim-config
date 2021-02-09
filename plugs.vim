@@ -53,5 +53,14 @@ Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
 Plug 'noahfrederick/vim-laravel'
 Plug 'jwalton512/vim-blade'
 
+" JavaScript/Typescript specific
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+
+" React specific
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
+
 call plug#end()
 filetype plugin indent on
