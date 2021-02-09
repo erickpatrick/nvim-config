@@ -12,4 +12,11 @@ autocmd Filetype php set errorformat=%m\ in\ %f\ on\ line\ %1
 
 autocmd BufRead,BufNewFile *.js set tabstop=2 shiftwidth=2 tabstop=2
 autocmd FileType html,xhtml setlocal expandtab tabstop=2 shiftwidth=2 tabstop=2
-autocmd BufRead,BufNewFile *.blade.php set filetype=blade.html
+autocmd BufRead,BufNewFile *.blade.php set filetype=html
+
+au FileType javascript setlocal formatprg=prettier
+au FileType javascript.jsx setlocal formatprg=prettier
+au FileType typescript setlocal formatprg=prettier\ --parser\ typescript
+au FileType html setlocal formatprg=js-beautify\ --type\ html
+au FileType scss setlocal formatprg=prettier\ --parser\ css
+au FileType css setlocal formatprg=prettier\ --parser\ css
