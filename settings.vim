@@ -1,5 +1,5 @@
 "basic configuration
-set updatetime=250
+set updatetime=100
 set background=dark
 set tabstop=4
 set shiftwidth=4
@@ -34,7 +34,7 @@ set fileencoding=UTF-8
 
 " always keep signcolumn shown
 set signcolumn=yes
-set shell=/usr/local/bin/zsh
+set shell=/bin/zsh
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,var
 set hidden
 set shortmess+=c

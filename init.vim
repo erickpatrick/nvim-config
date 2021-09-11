@@ -5,7 +5,7 @@ source $HOME/.config/nvim/commands.vim
 source $HOME/.config/nvim/mappings.vim
 source $HOME/.config/nvim/filetypes.vim
 source $HOME/.config/nvim/coc.vim
-source $HOME/.config/nvim/fzf.vim
-source $HOME/.config/nvim/clap.vim
-source $HOME/.config/nvim/php.vim
-source $HOME/.config/nvim/intelephense.vim
+source $HOME/.config/nvim/telescope.vim
+source $HOME/.config/nvim/vgit.vim
+source $HOME/.config/nvim/lspconfig.vim
+source $HOME/.config/nvim/nerdcommenter.vim

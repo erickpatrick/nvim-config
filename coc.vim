@@ -1,6 +1,4 @@
 let g:coc_global_extensions = [
- \ 'coc-explorer',
- \ 'coc-fzf-preview',
  \ 'coc-diagnostic',
  \ 'coc-lists',
  \ 'coc-sh',
@@ -13,10 +11,7 @@ let g:coc_global_extensions = [
  \ 'coc-emmet',
  \ 'coc-tsserver',
  \ 'coc-prettier',
- \ 'coc-graphql',
  \ 'coc-tailwindcss',
- \ 'coc-phpls',
- \ 'coc-phpactor',
  \ 'coc-yaml'
  \]
 

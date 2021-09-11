@@ -11,10 +11,13 @@ call plug#begin('~/.config/nvim/plugged')
 
 " General plugins
 Plug 'dracula/vim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'jose-elias-alvarez/null-ls.nvim'
 
-" better search using fuzzy finding FZF
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
+" new modal file browser/previewer
+" no need to have fzf plugin
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " power usage for nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -32,35 +35,25 @@ Plug 'tpope/vim-projectionist'
 Plug 'preservim/nerdcommenter'
 
 " see the git status of the current line in the gutter
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
+Plug 'tanvirtin/vgit.nvim'
 
-" makes vim autocomplete (), [], {}, '', "", etc
+"makes vim autocomplete (), [], {}, '', "", etc
 Plug 'jiangmiao/auto-pairs'
 
 " matches pairs of things (if-else, tags, etc)
 Plug 'andymass/vim-matchup'
 
-" interesting file navigator in modal window
-Plug 'liuchengxu/vim-clap'
-
-" PHP specific plugins
-Plug 'StanAngeloff/php.vim', { 'for': 'php' }
-Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
-Plug 'noahfrederick/vim-composer'
-Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
-
-" Laravel Specific
-Plug 'noahfrederick/vim-laravel'
-Plug 'jwalton512/vim-blade'
-
 " JavaScript/Typescript specific
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
+Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
 " React specific
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'jparise/vim-graphql'
+"Plug 'jparise/vim-graphql'
+Plug 'jxnblk/vim-mdx-js'
 
 call plug#end()
 filetype plugin indent on

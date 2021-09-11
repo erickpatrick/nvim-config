@@ -8,4 +8,4 @@ let g:clap_layout = { 'width': '70%', 'col': '15%', 'row': '10%', 'relative': 'e
 " When in normal mode, press `bb` and it will call vim-clap to show current
 " open buffers which we can switch to. The <CTRL>+V & <CTRL>+H shortcuts to
 " vertical/horizontal split file opening also work.
-nmap <silent> bb :Clap buffers<CR>
+nmap <silent> <leader>b :Clap buffers<CR>

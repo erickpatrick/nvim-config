@@ -1,11 +1,31 @@
 {
+  "suggest.noselect": false,
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "!",
+  "diagnostic.infoSign": "?",
+  "diagnostic.checkCurrentLine": true,
   "prettier.disableSuccessMessage": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "json",
+    "go"
   ],
   "tsserver.formatOnType": true,
-  "coc.preferences.formatOnType": true
+  "coc.preferences.formatOnType": true,
+  "git.enableGutters": true,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.icon.enableNerdfont": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  },
+  "go.goplsOptions": {
+    "staticcheck": true
+  }
 }
